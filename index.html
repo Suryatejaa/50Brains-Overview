@@ -32,7 +32,8 @@
         .stat-card {
             background-color: white;
             border-radius: 0.75rem;
-            padding: 1.5rem;
+            padding: 1rem;
+            margin: 0.1rem;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
             border: 1px solid #E2E8F0;
         }
@@ -91,75 +92,75 @@
         </div>
     </nav>
 
-    <main class="container mx-auto px-6 py-12">
+    <main class="container mx-auto px-2 sm:px-2 py-2 sm:py-2">
 
-        <section id="hero" class="text-center py-16">
-            <h1 class="text-5xl md:text-7xl font-black tracking-tight text-[#2D3748]">The Creative Operating System</h1>
-            <p class="text-xl md:text-2xl mt-4 text-gray-600 max-w-3xl mx-auto">Connecting Brands, Influencers, and Film Crew to build the future of the creative economy in India and beyond.</p>
+        <section id="hero" class="text-center py-12 sm:py-16">
+            <h1 class="text-4xl sm:text-5xl md:text-7xl font-black tracking-tight text-[#2D3748]">The Creative Operating System</h1>
+            <p class="text-lg sm:text-xl md:text-2xl mt-2 sm:mt-4 text-gray-600 max-w-3xl mx-auto">Connecting Brands, Influencers, and Film Crew to build the future of the creative economy in India and beyond.</p>
         </section>
         
-        <section id="market" class="py-16">
-            <h2 class="text-4xl font-bold text-center mb-4">India's Burgeoning Creator Economy</h2>
-            <p class="text-lg text-center text-gray-600 max-w-3xl mx-auto mb-12">Fueled by a young population and rapid digital adoption, India's creator economy is a multi-billion dollar opportunity ready for a unified platform.</p>
+        <section id="market" class="py-8 md:py-16">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">India's Burgeoning Creator Economy</h2>
+            <p class="text-md sm:text-lg text-center text-gray-600 max-w-3xl mx-auto mb-8 sm:mb-12">Fueled by a young population and rapid digital adoption, India's creator economy is a multi-billion dollar opportunity ready for a unified platform.</p>
 
-            <div id="market-size" class="stat-card mb-12">
-                <h3 class="text-2xl font-bold text-center mb-4">Market Size & Projections</h3>
-                <p class="text-center text-gray-500 text-lg">Direct Market Value (2025):</p>
-                <p class="text-center text-5xl md:text-6xl font-extrabold text-[#F5A623] my-4">$1.45B</p>
-                <p class="text-center text-gray-500 text-lg">Projected to reach <span class="text-[#4A90E2] font-bold">$5.93B by 2032</span> with a 22.2% CAGR.</p>
+            <div id="market-size" class="stat-card mb-8 sm:mb-12 mx-auto max-w-xl">
+                <h3 class="text-xl sm:text-2xl font-bold text-center mb-4">Market Size & Projections</h3>
+                <p class="text-center text-gray-500 text-sm sm:text-lg">Direct Market Value (2025):</p>
+                <p class="text-center text-4xl sm:text-5xl font-extrabold text-[#F5A623] my-4">$1.45B</p>
+                <p class="text-center text-sm sm:text-lg text-gray-500">Projected to reach <span class="text-[#4A90E2] font-bold">$5.93B by 2032</span> with a 22.2% CAGR.</p>
                 <div class="chart-container">
                     <canvas id="marketGrowthChart"></canvas>
                 </div>
             </div>
 
-            <div id="creator-landscape" class="grid md:grid-cols-2 gap-8 mb-12">
+            <div id="creator-landscape" class="grid md:grid-cols-2 gap-4 sm:gap-8 mb-8 sm:mb-12">
                 <div class="stat-card text-center">
-                    <h3 class="text-2xl font-bold mb-4">The Creator Landscape</h3>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-4">The Creator Landscape</h3>
                     <p class="text-5xl mb-2">👥</p>
-                    <p class="text-4xl font-extrabold text-[#4A90E2]">2.5M - 4.5M</p>
-                    <p class="text-gray-600 mt-2">Total Creators in India</p>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-[#4A90E2]">2.5M - 4.5M</p>
+                    <p class="text-gray-600 mt-2 text-sm sm:text-base">Total Creators in India</p>
                 </div>
                 <div class="stat-card text-center">
-                    <h3 class="text-2xl font-bold mb-4">The Monetization Gap</h3>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-4">The Monetization Gap</h3>
                     <p class="text-5xl mb-2">💰</p>
-                    <p class="text-4xl font-extrabold text-[#F5A623]">150K - 600K</p>
-                    <p class="text-gray-600 mt-2">Creators Earning a Meaningful Income</p>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-[#F5A623]">150K - 600K</p>
+                    <p class="text-gray-600 mt-2 text-sm sm:text-base">Creators Earning a Meaningful Income</p>
                 </div>
             </div>
             
-            <div id="economic-impact" class="stat-card text-center">
-                <h3 class="text-2xl font-bold mb-4">Economic Impact</h3>
-                <p class="text-5xl md:text-6xl font-extrabold text-green-600 my-4">$350B - $400B</p>
-                <p class="text-lg text-gray-600">Annual consumer spending influenced by Indian creators, projected to surpass <span class="font-bold">$1 trillion by 2030</span>.</p>
-                <p class="text-sm text-gray-500 mt-2">This influence directly drives over 30% of online purchases.</p>
+            <div id="economic-impact" class="stat-card text-center mx-auto max-w-xl">
+                <h3 class="text-xl sm:text-2xl font-bold mb-4">Economic Impact</h3>
+                <p class="text-4xl sm:text-5xl font-extrabold text-green-600 my-4">$350B - $400B</p>
+                <p class="text-sm sm:text-lg text-gray-600">Annual consumer spending influenced by Indian creators, projected to surpass <span class="font-bold">$1 trillion by 2030</span>.</p>
+                <p class="text-xs sm:text-sm text-gray-500 mt-2">This influence directly drives over 30% of online purchases.</p>
             </div>
         </section>
 
-        <section id="problem" class="py-16">
-            <h2 class="text-4xl font-bold text-center mb-4">A Disconnected & Inefficient Ecosystem</h2>
-            <p class="text-lg text-center text-gray-600 max-w-3xl mx-auto mb-12">Valuable connections are lost in a fragmented landscape of informal networks, opaque agencies, and platforms not built for the creative gig economy.</p>
-            <div class="grid md:grid-cols-3 gap-8">
+        <section id="problem" class="py-8 md:py-16">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">A Disconnected & Inefficient Ecosystem</h2>
+            <p class="text-md sm:text-lg text-center text-gray-600 max-w-3xl mx-auto mb-8 sm:mb-12">Valuable connections are lost in a fragmented landscape of informal networks, opaque agencies, and platforms not built for the creative gig economy.</p>
+            <div class="grid md:grid-cols-3 gap-4 sm:gap-8">
                 <div class="stat-card text-center transition-transform transform hover:scale-105">
-                    <p class="text-6xl mb-4">🏢</p>
-                    <h3 class="text-2xl font-bold mb-2">Brands Struggle</h3>
-                    <p class="text-gray-600">They fight to find authentic creators, wasting money on fake metrics and inefficient manual searches.</p>
+                    <p class="text-5xl sm:text-6xl mb-4">🏢</p>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-2">Brands Struggle</h3>
+                    <p class="text-sm sm:text-base text-gray-600">They fight to find authentic creators, wasting money on fake metrics and inefficient manual searches.</p>
                 </div>
                 <div class="stat-card text-center transition-transform transform hover:scale-105">
-                    <p class="text-6xl mb-4">🎨</p>
-                    <h3 class="text-2xl font-bold mb-2">Creators Fight</h3>
-                    <p class="text-gray-600">They compete for visibility, fair compensation, and consistent gig flow in an overly crowded market.</p>
+                    <p class="text-5xl sm:text-6xl mb-4">🎨</p>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-2">Creators Fight</h3>
+                    <p class="text-sm sm:text-base text-gray-600">They compete for visibility, fair compensation, and consistent gig flow in an overly crowded market.</p>
                 </div>
                 <div class="stat-card text-center transition-transform transform hover:scale-105">
-                    <p class="text-6xl mb-4">🎬</p>
-                    <h3 class="text-2xl font-bold mb-2">Film Crew are Invisible</h3>
-                    <p class="text-gray-600">Writers, editors, and DOPs are sidelined, relying on word-of-mouth with no platform to showcase their talent.</p>
+                    <p class="text-5xl sm:text-6xl mb-4">🎬</p>
+                    <h3 class="text-xl sm:text-2xl font-bold mb-2">Film Crew are Invisible</h3>
+                    <p class="text-sm sm:text-base text-gray-600">Writers, editors, and DOPs are sidelined, relying on word-of-mouth with no platform to showcase their talent.</p>
                 </div>
             </div>
         </section>
 
-        <section id="solution" class="py-16">
-            <h2 class="text-4xl font-bold text-center mb-4">The 50BraIns Solution</h2>
-            <p class="text-lg text-center text-gray-600 max-w-3xl mx-auto mb-12">We are building the definitive platform that unifies the entire creative workflow, from discovery to collaboration and payment.</p>
+        <section id="solution" class="py-8 md:py-16">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">The 50BraIns Solution</h2>
+            <p class="text-md sm:text-lg text-center text-gray-600 max-w-3xl mx-auto mb-8 sm:mb-12">We are building the definitive platform that unifies the entire creative workflow, from discovery to collaboration and payment.</p>
             <div class="stat-card">
                 <div class="flex flex-col md:flex-row justify-around items-center text-center p-4">
                     <div id="node-brand" class="solution-node p-4 cursor-pointer">
@@ -178,141 +179,141 @@
                         <p class="text-4xl">🤝</p><p class="font-bold mt-2">Clans</p>
                     </div>
                 </div>
-                <div id="solution-description" class="mt-6 p-6 bg-blue-50 border border-blue-200 rounded-lg text-center text-lg text-blue-800 transition-opacity duration-300">
+                <div id="solution-description" class="mt-6 p-6 bg-blue-50 border border-blue-200 rounded-lg text-center text-sm sm:text-lg text-blue-800 transition-opacity duration-300 max-w-md mx-auto">
                     <p>Click on a node above to learn more about its role in the ecosystem.</p>
                 </div>
             </div>
         </section>
 
-        <section id="business" class="py-16">
-            <h2 class="text-4xl font-bold text-center mb-12">Business Model, Earnings & Competitive Edge</h2>
-            <div class="grid lg:grid-cols-5 gap-8">
-                <div class="lg:col-span-3 stat-card">
-                    <h3 class="text-2xl font-bold mb-4 text-center">How We Win</h3>
+        <section id="business" class="py-2 md:py-2">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12">Business Model, Earnings & Competitive Edge</h2>
+            <div class="grid md:grid-cols-2 gap-4 sm:gap-8">
+                <div class="md:col-span-1 stat-card">
+                    <h3 class="text-xl sm:text-2xl font-bold mb-4 text-center">How We Win</h3>
                     <div class="overflow-x-auto">
-                        <table class="w-full text-left">
+                        <table class="w-full text-left text-sm sm:text-base mx-auto">
                             <thead>
                                 <tr class="border-b-2 border-gray-200">
-                                    <th class="p-3"></th>
-                                    <th class="p-3">Fiverr/Upwork</th>
-                                    <th class="p-3">LinkedIn</th>
-                                    <th class="p-3 bg-blue-50 font-bold">50BraIns</th>
+                                    <th class="p-2 sm:p-3"></th>
+                                    <th class="p-2 sm:p-3">Fiverr/Upwork</th>
+                                    <th class="p-2 sm:p-3">LinkedIn</th>
+                                    <th class="p-2 sm:p-3 bg-blue-50 font-bold">50BraIns</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="border-b border-gray-200">
-                                    <td class="p-3 font-semibold">Focus</td>
-                                    <td class="p-3 text-gray-600">Generic Freelancing</td>
-                                    <td class="p-3 text-gray-600">Corporate Jobs</td>
-                                    <td class="p-3 bg-blue-50 text-[#4A90E2]">Niche Creative Economy</td>
+                                    <td class="p-2 sm:p-3 font-semibold">Focus</td>
+                                    <td class="p-2 sm:p-3 text-gray-600">Generic Freelancing</td>
+                                    <td class="p-2 sm:p-3 text-gray-600">Corporate Jobs</td>
+                                    <td class="p-2 sm:p-3 bg-blue-50 text-[#4A90E2]">Niche Creative Economy</td>
                                 </tr>
                                 <tr>
-                                    <td class="p-3 font-semibold">Designed For</td>
-                                    <td class="p-3 text-gray-600">Quantity of Gigs</td>
-                                    <td class="p-3 text-gray-600">Full-Time Roles</td>
-                                    <td class="p-3 bg-blue-50 text-[#4A90E2]">Creative Gigs & Teams</td>
+                                    <td class="p-2 sm:p-3 font-semibold">Designed For</td>
+                                    <td class="p-2 sm:p-3 text-gray-600">Quantity of Gigs</td>
+                                    <td class="p-2 sm:p-3 text-gray-600">Full-Time Roles</td>
+                                    <td class="p-2 sm:p-3 bg-blue-50 text-[#4A90E2]">Creative Gigs & Teams</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
-                <div class="lg:col-span-2 stat-card flex flex-col items-center">
-                    <h3 class="text-2xl font-bold mb-4 text-center">Short-Term Revenue (0-12 Mo)</h3>
+                <div class="md:col-span-1 stat-card flex flex-col items-center">
+                    <h3 class="text-xl sm:text-2xl font-bold mb-4 text-center">Short-Term Revenue (0-12 Mo)</h3>
                      <div class="chart-container h-64 md:h-72">
                         <canvas id="revenueDonutChart"></canvas>
                     </div>
                 </div>
             </div>
             
-            <div id="creator-earnings" class="stat-card mt-8">
-                <h3 class="text-2xl font-bold text-center mb-4">Creator Earnings Breakdown</h3>
-                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div id="creator-earnings" class="stat-card mt-4 sm:mt-8">
+                <h3 class="text-xl sm:text-2xl font-bold text-center mb-4">Creator Earnings Breakdown</h3>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                     <div class="grid-icon-card">
-                        <p class="text-4xl mb-2">💸</p>
-                        <p class="text-lg font-bold">Nano-Influencers</p>
-                        <p class="text-gray-600">50K-100K followers</p>
-                        <p class="text-2xl font-extrabold text-[#F5A623] mt-2">~₹18,000/mo</p>
+                        <p class="text-3xl sm:text-4xl mb-2">💸</p>
+                        <p class="text-sm sm:text-lg font-bold">Nano-Influencers</p>
+                        <p class="text-gray-600 text-xs sm:text-sm">50K-100K followers</p>
+                        <p class="text-xl sm:text-2xl font-extrabold text-[#F5A623] mt-2">~₹18,000/mo</p>
                     </div>
                     <div class="grid-icon-card">
-                        <p class="text-4xl mb-2">💼</p>
-                        <p class="text-lg font-bold">Professional Creators</p>
-                        <p class="text-gray-600">Majority (150K creators)</p>
-                        <p class="text-2xl font-extrabold text-[#4A90E2] mt-2">₹16K - ₹200K/mo</p>
+                        <p class="text-3xl sm:text-4xl mb-2">💼</p>
+                        <p class="text-sm sm:text-lg font-bold">Professional Creators</p>
+                        <p class="text-gray-600 text-xs sm:text-sm">Majority (150K creators)</p>
+                        <p class="text-xl sm:text-2xl font-extrabold text-[#4A90E2] mt-2">₹16K - ₹200K/mo</p>
                     </div>
                     <div class="grid-icon-card sm:col-span-2 lg:col-span-1">
-                        <p class="text-4xl mb-2">💎</p>
-                        <p class="text-lg font-bold">Top-Tier Creators</p>
-                        <p class="text-gray-600">Less than 1%</p>
-                        <p class="text-2xl font-extrabold text-green-600 mt-2">₹200K - ₹53 Lakhs/mo</p>
+                        <p class="text-3xl sm:text-4xl mb-2">💎</p>
+                        <p class="text-sm sm:text-lg font-bold">Top-Tier Creators</p>
+                        <p class="text-gray-600 text-xs sm:text-sm">Less than 1%</p>
+                        <p class="text-xl sm:text-2xl font-extrabold text-green-600 mt-2">₹200K - ₹53 Lakhs/mo</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="drivers" class="py-16">
-            <h2 class="text-4xl font-bold text-center mb-4">Key Growth Drivers</h2>
-            <p class="text-lg text-center text-gray-600 max-w-3xl mx-auto mb-12">The exponential growth is fueled by a perfect storm of demographic, technological, and content trends.</p>
+        <section id="drivers" class="py-8 md:py-16">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">Key Growth Drivers</h2>
+            <p class="text-md sm:text-lg text-center text-gray-600 max-w-3xl mx-auto mb-8 sm:mb-12">The exponential growth is fueled by a perfect storm of demographic, technological, and content trends.</p>
             <div class="stat-card">
-                <ul class="space-y-4 text-lg p-4">
+                <ul class="space-y-4 text-md sm:text-lg p-4">
                     <li class="flex items-start">
-                        <span class="text-3xl mr-3 leading-none">📱</span>
+                        <span class="text-2xl sm:text-3xl mr-3 leading-none">📱</span>
                         <div>
                             <p class="font-bold">Massive Digital Penetration</p>
-                            <p class="text-gray-600">Increasing internet and smartphone adoption, particularly in Tier-2/3 cities.</p>
+                            <p class="text-gray-600 text-sm sm:text-base">Increasing internet and smartphone adoption, particularly in Tier-2/3 cities.</p>
                         </div>
                     </li>
                     <li class="flex items-start">
-                        <span class="text-3xl mr-3 leading-none">🎞️</span>
+                        <span class="text-2xl sm:text-3xl mr-3 leading-none">🎞️</span>
                         <div>
                             <p class="font-bold">Short-Form Video Dominance</p>
-                            <p class="text-gray-600">The most effective format for monetization, with ad spending expected to double by 2026.</p>
+                            <p class="text-gray-600 text-sm sm:text-base">The most effective format for monetization, with ad spending expected to double by 2026.</p>
                         </div>
                     </li>
                     <li class="flex items-start">
-                        <span class="text-3xl mr-3 leading-none">🗣️</span>
+                        <span class="text-2xl sm:text-3xl mr-3 leading-none">🗣️</span>
                         <div>
                             <p class="font-bold">Rise of Regional Content</p>
-                            <p class="text-gray-600">India's linguistic diversity is unlocking new, hyper-local creator markets.</p>
+                            <p class="text-gray-600 text-sm sm:text-base">India's linguistic diversity is unlocking new, hyper-local creator markets.</p>
                         </div>
                     </li>
                     <li class="flex items-start">
-                        <span class="text-3xl mr-3 leading-none">🏛️</span>
+                        <span class="text-2xl sm:text-3xl mr-3 leading-none">🏛️</span>
                         <div>
                             <p class="font-bold">Government & Brand Support</p>
-                            <p class="text-gray-600">A new $1 billion fund and growing brand investment validate the sector's potential.</p>
+                            <p class="text-gray-600 text-sm sm:text-base">A new $1 billion fund and growing brand investment validate the sector's potential.</p>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section id="roadmap" class="py-16">
-            <h2 class="text-4xl font-bold text-center mb-4">Our Go-to-Market Strategy</h2>
-            <p class="text-lg text-center text-gray-600 max-w-3xl mx-auto mb-12">A phased rollout ensures we build a strong foundation and scale effectively to capture the market.</p>
+        <section id="roadmap" class="py-8 md:py-16">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-4">Our Go-to-Market Strategy</h2>
+            <p class="text-md sm:text-lg text-center text-gray-600 max-w-3xl mx-auto mb-8 sm:mb-12">A phased rollout ensures we build a strong foundation and scale effectively to capture the market.</p>
             <div class="stat-card">
                 <div class="relative pl-12 py-4 border-l-4 border-gray-200">
-                    <div class="timeline-item mb-12 relative">
-                        <h4 class="text-xl font-bold text-[#F5A623]">Phase 1: Foundation</h4>
-                        <p class="text-gray-600">Onboard micro-influencers and F&B brands to build initial community, validate the marketplace, and generate early traction.</p>
+                    <div class="timeline-item mb-8 relative">
+                        <h4 class="text-xl sm:text-2xl font-bold text-[#F5A623]">Phase 1: Foundation</h4>
+                        <p class="text-sm sm:text-base text-gray-600">Onboard micro-influencers and F&B brands to build initial community, validate the marketplace, and generate early traction.</p>
                     </div>
-                    <div class="timeline-item mb-12 relative">
-                        <h4 class="text-xl font-bold text-[#4A90E2]">Phase 2: Expansion</h4>
-                        <p class="text-gray-600">Expand the platform to include film crew and indie production houses, integrating the full creative stack and enabling the Clan system.</p>
+                    <div class="timeline-item mb-8 relative">
+                        <h4 class="text-xl sm:text-2xl font-bold text-[#4A90E2]">Phase 2: Expansion</h4>
+                        <p class="text-sm sm:text-base text-gray-600">Expand the platform to include film crew and indie production houses, integrating the full creative stack and enabling the Clan system.</p>
                     </div>
                     <div class="timeline-item relative">
-                        <h4 class="text-xl font-bold text-green-600">Phase 3: Scale</h4>
-                        <p class="text-gray-600">Capture the explosive growth of creators in Tier-2/3 cities, becoming the dominant OS for India's emerging creative class.</p>
+                        <h4 class="text-xl sm:text-2xl font-bold text-green-600">Phase 3: Scale</h4>
+                        <p class="text-sm sm:text-base text-gray-600">Capture the explosive growth of creators in Tier-2/3 cities, becoming the dominant OS for India's emerging creative class.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="ask" class="py-16 text-center">
-             <h2 class="text-4xl font-bold mb-4">Join Our Mission</h2>
-             <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">We are seeking strategic partners and mentors to help us democratize the creative economy.</p>
-             <div class="inline-block bg-white p-6 border rounded-lg shadow">
-                 <p class="text-xl font-semibold">“50BraIns is where brands find talent, creators find gigs, and crews get their first big break.”</p>
-                 <p class="mt-4 text-gray-500">- Surya Teja Illa, Founder</p>
+        <section id="ask" class="py-8 md:py-16 text-center">
+             <h2 class="text-3xl sm:text-4xl font-bold mb-4">Join Our Mission</h2>
+             <p class="text-md sm:text-lg text-gray-600 max-w-3xl mx-auto mb-4 sm:mb-8">We are seeking strategic partners and mentors to help us democratize the creative economy.</p>
+             <div class="inline-block bg-white p-4 sm:p-6 border rounded-lg shadow">
+                 <p class="text-base sm:text-xl font-semibold">“50BraIns is where brands find talent, creators find gigs, and crews get their first big break.”</p>
+                 <p class="mt-2 sm:mt-4 text-gray-500 text-sm sm:text-base">- Surya Teja Illa, Founder</p>
              </div>
         </section>
     </main>
